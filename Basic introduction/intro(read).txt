@@ -1,0 +1,6 @@
+Here the first line placed in the index.html file consists of general text and the
+remaining lines in the code consists of the ShortCut
+
+! inside the Vs code..
+
+You get the remaining code which you see in the index.html on using the above shortcut.
