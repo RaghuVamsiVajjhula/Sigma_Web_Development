@@ -4,3 +4,9 @@ remaining lines in the code consists of the ShortCut
 ! inside the Vs code..
 
 You get the remaining code which you see in the index.html on using the above shortcut.
+
+Also you need to place the video file and the html file in the same folder in order to 
+get the video
+
+Also you can use the controls of the video placed in the website by adding "controls" 
+after the video adding as in the index.html .
