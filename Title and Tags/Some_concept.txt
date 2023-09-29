@@ -1,0 +1,15 @@
+We know that we have an TITLE tag which is given in the html code.
+The name which you give to the title in the code is not seem inside the website but
+it is seen on the top of the tab bar like near the tab close option......
+
+
+
+
+
+There will be 2 types of tags in HTML:
+
+1.Self Closing Tag: They dont need any special closing tag.
+	Example: Meta tag is a closing tag
+
+2.Paired Tag: They need a tag in order to close.
+	Example: Html tag is Paired tag and it needed to be closed.
