@@ -1,0 +1,29 @@
+There are header tags in HTML which display its content in different forms.
+Also the in the paragraph elements all the content in an website is written and
+Lorem20 is a predefined word which gives 20 random words
+Same as Lorem20 Lorem10,Lorem100,..... gives random content.
+
+Here the style attribure set with background color red is nice, we did that
+without using css .But when there are more number of elements for each and 
+every p you need to define. 
+So we use Css and define style for all at a  time.
+
+We use CSS for efficient usage of styles.
+
+When you use VS code you can actually customise color on clicking on the color box which
+appears when you set a color...
+
+    
+style attribute value is set to p element.
+
+IN 
+BOOKMARK.HTML
+
+in order to go to a new tab we need  to set the a href="" link to a target attribute
+
+target="_blank" so that the link is opened in a new tab.
+
+ORELSE
+We need to go onto the link and click on scroll wheel.
+
+
