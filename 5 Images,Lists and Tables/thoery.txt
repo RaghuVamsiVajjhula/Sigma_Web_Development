@@ -1,0 +1,89 @@
+Here in order to addd an image we use 
+
+img src="" and alt=""
+
+Here the src contains the filename.png  and 
+the alt attribure consists of the text which is to be displayed on the
+website when image cannot be displayed due to some error.
+
+Now we add width="" attribute with some value like 230 or something....
+230 is a good size here so we used it.
+
+Also width is defined in html as an Inline CSS element.
+
+Generally it is described in css  and in the form of px;
+
+example:  width:230px;
+
+Also we can add height  attribute
+Even height can be added in CSS
+
+
+Table tags are very useful
+
+It consists of 
+
+tr tag: table row.
+th tag: table heading.
+td tag: table data.
+
+You can add multiple td so that the number of rows in the table 
+increases.
+You get it in the form of data elements.
+
+By default the table looks ugly like there will be no borders on the 
+table and there is no proper arrangement of elements in the table.
+
+
+Inside the <td> we can add colspan="" attribute which means that 
+it td value will take the number of coloumuns given to colspan attribute.
+
+Inside the <td> we can also add rowspan="" attribute which works same as colspan
+but it row's directon.
+
+
+Also we can add captions in HTML and its font and style can be defined further.
+
+The header and footer can also be added to the table
+with <thead> and <tfoot>
+Also the body content of the tabel is also added with tbody.
+
+
+The  br tag which is used to break.
+
+There are lists in html which are of 3 types:
+Unordered lists.
+Ordered lists.
+Definition lists.
+
+In unordered lists the data is written in <li> element(li : list items)
+also the data which is entered is given in an non ordered form 
+like there are no proper arrangement like below:
+
+Un ordered lists are not like the below syntax!!
+1....
+2....
+3....
+
+They are not numbered and unorganised
+In unordered lists we get our data in bullet points and we can customise the bullet by 
+using type="" attribute.
+
+
+Ordered lists are organised we can see them organised:
+1...
+2...
+3...
+In ordered lists we can also use type attribute to specify wheather
+type=1(numebers),I(roman numbers),a(Lowercase),A(uppercase)
+
+
+Defintion lists use 3 tags:
+<dl>definition list
+<dt>definition term
+<dd>definition definition
+
+It's like,
+
+HTML
+    This is a language.Used for webdevelopment.
