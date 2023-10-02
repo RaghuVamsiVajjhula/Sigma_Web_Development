@@ -1,0 +1,53 @@
+We have to make a website compatible to use in different types of
+devices like android,iphone,ipad,windows,mac,surface book,flip and fold phones,etc....
+
+We have to provide good user experience...  to all of our users.
+
+SEO: search engine optimisation
+
+CLS: CUMULATIVE LAYOUT SHIFT
+
+check video:https://web.dev/cls/
+
+we should have less amount of cls whereever possible.
+
+CLS means that the amount of shifts happening when a page gets to load.
+Example: when you open a website we see some content on top immediately and after 
+few seconds the content we saw shifts downwards and some other gets displayed on top.
+
+
+LCP:Largest Contetful Paint(LCP)
+
+It is the render time of largest image or textbook.
+in order to provide good user experience sites should have LCP of 2.5 seconds or less.
+ 
+FID: First input delay.
+
+It measurese the time it takes inorder to process the output when you press some
+input button on a website.
+in order to provide a good user experience sites should have First Input Delay of 
+100milliseconds or less.
+
+WHAT is a lighthouse and How to generate a light house report?
+
+Light house will actually generate a report and tells you What can be improved in your 
+HTML page.
+
+Meta Descrpition and keywords:
+
+Title: You can set the name of your title according to the content present in your website.
+bcoz, when someone searches for a "pointers in c language" he can find your website 
+based on your title name.
+
+Meta desc tag:
+The content which you write on a website in summarised and written in the Meta desc tag.
+If you dont decalare a meta desc tag some search engines like Google,Bing,..  will 
+take some of your content and print them in the meta description by default.
+
+Basically when you search something on Google, You can see multiple website links
+which are related to your search. Also below each and every link you can see some part of
+content description which further is present inside the website.
+
+That description in kept under the web link by meta desc tag..
+
+
