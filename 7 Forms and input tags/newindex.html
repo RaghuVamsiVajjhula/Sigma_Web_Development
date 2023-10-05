@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITLE DOCUMENT</title>
+</head>
+<body>
+    <h1>USERNAME COLLECTION:</h1>
+    <!-- The div tag is explained in future codes....(like we use them to differentiate...)-->
+    <div>
+        <label for="username" >Enter your user name :</label>
+        <input type="text" id="username" name="username" placeholder="Enter your user name here:" autofocus>
+        <!-- Here at the end autofocus is written because when you are entering some data in a website
+                even the website is reloaded the data is not deleted the entered data is remained same 
+            when you place autofocus...-->
+
+    </div>
+
+    <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">MALE</label>
+
+        <!-- Here the for=male because the id=male.-->
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">FEMALE</label>
+    </div>
+
+    <!-- THe textarea here is available to take some content.-->
+    <div>
+        <textarea name="Comment..." rows="4" cols="40">Enter your comment text here:
+        </textarea> 
+    </div> 
+
+    <!-- The select tag is used select from number of inputs givem-->
+    <div>
+        <select name="Fruits">
+            <option value="Apple">Apple</option>      
+            <option value="Banana">Banana</option>      
+            <option value="Orange">Orange</option>      
+        </select>
+    </div>
+
+</body>
+</html>
