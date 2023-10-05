@@ -5,3 +5,6 @@ INPUT tags are the tags are about the contents which we get from the user.
 Label is a tag which is used to tag the input elements.
 example: name,age,....
 
+Some of the theory content is written in the HTML codes itself..
+
+Also there are 2 html codes which consists of different concepts.
