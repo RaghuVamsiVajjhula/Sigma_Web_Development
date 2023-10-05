@@ -8,3 +8,5 @@ example: name,age,....
 Some of the theory content is written in the HTML codes itself..
 
 Also there are 2 html codes which consists of different concepts.
+
+Both the files consists of different concepts, both are to be prepared.
