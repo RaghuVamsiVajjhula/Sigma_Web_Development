@@ -1,0 +1,7 @@
+Forms in HTML are used in order to collect information from the user.
+The forms consists of the details which are given by user.
+
+INPUT tags are the tags are about the contents which we get from the user.
+Label is a tag which is used to tag the input elements.
+example: name,age,....
+
