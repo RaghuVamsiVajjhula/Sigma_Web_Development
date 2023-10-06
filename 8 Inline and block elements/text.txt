@@ -1,0 +1,18 @@
+Inline elements takes that amount of width which is only required.
+ex: a tag, span tag.
+
+Block elements the entire width present in that line.
+So the next content present in the code is displayed below this.
+ex: p tag, div tag.
+
+AS BLOCK elements take the entire width when u write a block element in under an 
+inline element it cannot stay in some line.
+
+Here we added span and a tag and we can see that both are in the same line..
+So the width is shared in inline element.
+
+Now we saw that the p,div,..... tags are block element and 
+a,span,...  are inline elements. But they cant be always same.
+We can change their display properties from CSS.
+
+
