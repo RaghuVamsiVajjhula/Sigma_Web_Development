@@ -1,0 +1,22 @@
+Id is something which is unique.
+AN id is an attribure, a unique identifier assigned to only one HTML element 
+within a page. Often used in unique styling and javascript manipulations.
+
+We can give same values to the class attributes in different tags.
+We cannot have same value to the id attribute same for even different classes.
+
+Classes are written in CSS by using 
+.Class_name
+  {
+
+}
+
+id are written in CSS by using
+#id_name
+{
+
+}
+
+id and classes are just attributes of the tags.
+
+Here id is also used for linking element tags.
