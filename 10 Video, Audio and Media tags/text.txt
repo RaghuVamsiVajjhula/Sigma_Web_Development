@@ -1,0 +1,75 @@
+We used a video tag inside the body and we added an controls option so that we can use the 
+options for video in our html page.
+
+We got a big frame size of video.
+So we added a width attribute with 555 value.
+
+Also we can add height attribute instead of width attribute.
+
+The src attribute is used to specify the path to a specific file.
+The path can be either of local computer or from some third party website...
+
+VIDEO TAG:
+
+The controls attribute adds video controls, like play,pause, and volume. 
+
+The autoplay attribute automatically plays the video when the page reloads.
+
+The loop attribute will replay the video after its end.
+
+The muted attribute will mute the video by default.
+
+The poster attribute is given as shown in the code, poster= "filename.***"
+It acts as an image for the video which is not started to play.
+It specifies the image which is to be displayed for a video before it starts to play.
+
+As controls attribute is placed inside the code we can place the attributes above:
+
+
+AUDIO TAG:
+
+The Audio tag is used in order to insert an audio into the page.
+Also after specifing the source attribute we need to add controls in order to 
+use the audio file.
+
+The below mentioned attributes are same as above:
+
+src 
+controls
+autoplay
+loop 
+muted   
+
+preload attribute: Specified if and how the audio should be loaded when the page loads.
+There are 3 values: none,metadata,auto
+
+none - The browser does not load any data at all until playback is initiated (play button cliked)
+
+metadata- Only metadata such as length and title is fetched. This enables the user agent to show
+
+auto- This value will instruct the browser to preload the entire audio file as much as possible
+without delaying the loading of other important page content.
+
+
+When preload is auto , if we take an example of audio, here when ever we enter the page,
+the audio is loaded before hand. When we click on  the play button immediately the audio is 
+played.
+
+
+SVG tag:
+It consists of shape circke and color red here which have the border and color we gave.
+
+ON BROWSER WE CAN SEE that
+all the video,audio and svg tags are appered side by side.
+so those all are inline elements.
+
+
+IFRAME tag:
+We can use this element in our HTML in order to embed another website in our website.
+here we embedded codewithharry website in our html code.
+
+We can click on share button on youtube web we get an option called embed. After clicking the 
+option we see a link copy that link and past it in the url place in your code in svg tag.
+we can also set the time from which we need to play our video.
+
+
