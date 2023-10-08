@@ -1,0 +1,36 @@
+Using sematic tags for your website will benifit you in 2 ways:
+1.To improve websites SEO.
+2.To help the maintainability of website.
+
+They offer a way to structure HTML code in meaningful, makes website more accessible and
+easier to understand.
+
+Semantic helps browsers and webcrawlers(who investigate different types of websites.).
+It helps them by giving them information about which type of content is present in the website.
+
+We can even build our websites by not using semantic tags.There is no problem. BUT,
+If we use these semnatic tags web browsers like Google,Bing and more.. will get a clear
+idea about the website and helps in ranking of our website.
+
+Some of the semantic tags are:
+
+1.<header> </header>  :Used to indicate top section of our webpage.
+
+2.<nav></nav>         :Signifies navigation menu of a webpage.
+
+3.<article></article> :Indicates self contained content such as blog post or news article.
+
+4.<section></section> :Represent Group of content on a website.
+
+5.<aside></aside>     :Used for sidebars or content that is tangentially related to main content.
+
+6.<footer></footer>   :Represent to footer of the webpage.Usually contains the contact and about information.
+
+7.<figure></figure>   :Used to embed images,diagrams,charts along with a caption.
+and <figcaption></figcaption>
+
+8.<main></main>       :Simplifies the main content of the webpage.
+
+9.<time></time>        :Used to represent time related information like dates and times.
+
+We simply use these in order to arrange files.
