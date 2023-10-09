@@ -1,0 +1,42 @@
+Special characters like <,> and more cannot be understood by browser.
+So we use Entities, they start with & and ;
+
+We use Entities:
+1.Reserved characters
+2.Special Symbols
+3.To create white spaces that wont break into a new line.
+
+Common HTML tags:
+&lt; for <
+&gt; for >
+&amp; for &
+&nbsp; for a non breaking spaces USED to give spaces in btw words.
+&copy; for (c inside circle)(copyright symbol)
+
+
+Pre tag in html is used when we need to consider the spaces which are given inside the code.
+The code can be seen in the html file for pre tag.
+The spaces are considered.
+
+
+QUOTATION TAG:
+We use this tag in order to make search engines know that there is quotation present here.
+<blockquote> </blockquote> is used.
+
+
+AlL the below 2 tags can be used in HTML but better to use them in CSS:
+
+BUT Now we have stopped using this tag instead we are setting up all those attributes in CSS.
+
+1. FONT tag : 
+This have attributes like color,size and more....
+
+2.CENTER tag:
+Helps to center the text.
+
+ANOTHER IMP TAG IN HTML:
+
+CODE TAG:
+
+It is one of the semantic tag in HTML that is used for displaying code snippets.
+used in both inline and block level elements like pre.
