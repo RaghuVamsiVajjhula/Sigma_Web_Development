@@ -1,0 +1,32 @@
+CSS stands for cascading style sheets.
+We use this in order to visualisation of out HTML in better way.
+
+We have selectors in  CSS which will help us to select any element.
+
+If we write a code in HTML:
+
+<div> Hello World </div>
+
+In css we can write:
+
+div                  //This is the selector.
+{
+    color:red;       //This is our decalration
+}
+Here color is property and red is its value. 
+
+All the div element present in the html will be effected.
+
+All the conditions written in style sheet element will effect all the tags
+like above the div tag.All the div tags are effected with these changes.
+
+We can see that we wrote 2 div tags and 1 span tag.
+The conditions written in style are only effecting our div tag
+our span is not effected.We need to write another code like:
+span{
+    color:....  
+}
+In order to change styles of span tags.
+
+WE added a p tag and placed it next to div in style.
+So all the changes are also made to p.
