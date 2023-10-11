@@ -1,0 +1,6 @@
+/*  We can actually remove the style tag and inline style attribute 
+if we are using this external css. */
+p{
+    color:darkblue;
+    background-color: burlywood;
+}
