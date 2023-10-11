@@ -1,0 +1,32 @@
+There are 3 ways to add CSS in HTML:
+1.Inline CSS
+Here we use style attribute in HTML page.
+
+2.Internal CSS
+It means add style tag and place the HTML pages style within.
+
+3.External CSS
+Here create a .css file and place all your styles inside that .css file
+This is the most used in CSS.
+
+
+The difference btw inline and internal css:
+
+let us assume we have 10 h1 tags .
+If you use inline css for each and evey h1 tag you need to add style attribute
+and give them their value.
+
+If you use internal css then for all the h1 tags under the style tag in head 
+you can give its functionalities for all the 10 h1 tags at a time.
+
+so suppose we use inline css and wrote the functionalities of all h1 tags.
+if there is a need to change some functionality we need to change it for each and 
+every tag written.
+
+// end of differnece btw inline and internal.
+
+Why should we use EXTERNAL CSS?
+If we write our elements and their functionalities inside the style tag written in
+head of html.Our style tags gets increased.. So instead of writing all the styles
+inside the HTML. WE can actually write styles separately.
+
