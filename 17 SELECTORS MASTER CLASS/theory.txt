@@ -1,0 +1,80 @@
+selectors in CSS:
+
+One of the important concept of CSS is selectors.
+
+There are element selectors in CSS which are used to help in adding styles.
+One of the draw back of using element selector in CSS is that if you 
+add any style for any tag whenever you use that tag inside the code it is influenced by
+the styles written for that tag element.
+
+When there are 2 divs and you added background color red to one of them and the other also
+uses red background because it is added inside the div tag.
+
+SO here comes the concept of classes where the tag element have their own class
+and we use the class selector element in order to style our code.
+
+Class selector:
+We specify a particular class for a tag and with that condition we style the tag.
+
+We specify the class selector with fullstop (.)
+
+Id selector:
+
+As the way we specify the class attribute to the tag. We can also specify an id attribute 
+to the style sheet and add our style.
+
+We specify the id selector wiht HashTag(#)
+
+There are also child selectors:
+
+The child selector is used to select something inside a tag
+like div >p represent to the p tag present inside a div element.
+
+Here it is the child selector.
+
+So now when we are having 
+<div>
+    <article>
+        <p>         </p>
+    </article>
+</div>
+
+When you use div > p you cannot access it as a child selector because there is an article in between.
+
+So, we use the concept of descendent selector.
+
+div p   : This means that there is p under div thats it. It may be how much sub branched but it is under div.
+
+There is a universal selector:
+
+Represented with  *
+*{
+
+}
+
+
+There is another important selectors called as Pseudo selectors
+This means that when ever a (anchor tag which is containing a link) is visited its styles
+shold be followed as given below.
+
+a:visited{
+
+}   This works when you visited a link
+
+a:link{
+
+} This works for an idle link
+
+a:active{
+
+}   This works when ever u click on a link.
+
+a:hover{
+
+}   This works when u are on the link
+
+p:firstchild{
+
+}       
+The above p works in the entire code whereever the p is placed as the first child of its parent.
+
