@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+    <style>
+        /*Element selector.*/
+        /*div{
+            background-color: red;
+        } */
+        /*Here we can see that only the div tag which is under class One is changed.*/
+        
+        /*Class selector is .One here*/
+    
+        .One{
+            background-color: red;
+        }
+        
+        /* ID selector*/
+        /*Here we are using the id as the selector,we specify condition of style to the elemets tag*/
+        #FirstId{
+            background-color: green;
+        }
+
+        div > p{  /*Here the p element will be like child selector of div tag*/
+            background-color: burlywood;
+            color:blue;
+        }
+        div > h3{/*On executing this we cannot see any changes in our webpage bcoz under div and under article we have our h3 tag.*/
+            background-color: red;
+        }
+        div h3{
+            background-color: hotpink;
+        }
+
+        /*Implementing Universal selector*/
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        /*Pseudo Selector*/
+        
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color:green;
+        }
+        a:active{
+            background-color:blueviolet;
+        }
+        a:hover{
+            background-color: aquamarine;
+        }
+        p:first-child{
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <main class="New">
+        <p>I am first child</p>
+        <p>I am second child</p>
+    </main> 
+    <div class="One"> <!-- We are using the class concept in order to differentiate between the 2 div elements present in the code....-->
+        I am a div tag
+        <p>This is a paragraph written inside Another Div element as a child selector.</p>
+
+    </div>
+    <div class="Two" id="FirstId">
+        This is another div tag
+    </div>
+    <div>
+        <!-- We cannot acccess h3 as child class of div' div > h3 'because it is inside the article. -->
+        <article>
+            <h3>Hello this is h3 tag inside article which is inside div.</h3>
+        </article>
+    </div>
+   
+    <a href="https://www.google.com">Go to Google</a>
+    
+   
+
+</body>
+</html>
