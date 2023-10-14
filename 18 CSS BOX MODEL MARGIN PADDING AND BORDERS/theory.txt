@@ -1,0 +1,54 @@
+Box model in CSS:
+There are mostly 3 components under Box model:
+Margin,Border,Padding.
+The detail about the placement of these 3 components and setting them 
+is explained in Box Model in Css.
+
+In Css all the elements which we use under HTML are considered as boxes.
+
+We can give an element, multiple classes.
+
+Also here we made margin and padding to 0 where all 
+the default values given by browser are made to 0.
+
+Also when there are 2 consitions which are styled for a tag
+the condition which which is specified seperately is 
+only considered.
+
+Example:
+
+<div class="box one">...........</div>
+<div class="box two">...........</div>
+
+When u specify a style to .box it will not be implemented when
+.one and .two are specified.
+
+THE BOX MODEL TELLS THAT:
+
+The structure of the box model is like in the 
+BOX MODEL.png (image )
+
+margin,padding and borders are specified for
+box 1 in index.html 
+
+There is another concept called MARGIN collapse.
+
+Here assume we have 2 boxes in our webpage and you have given
+
+25px margin space for 1st box.
+25px margin space for 2nd box.
+
+Now when u check the space in btw 2 boxes: 
+You have to get 50px of empty space because space for 1st box is 25 and 2nd is also 25.
+
+But here we can get a space only of 25px.
+
+Becasue the concpet of margin collapse tells that if there are 2 
+boxes and they have their own spaces.
+
+so the space in between them will be, The spaces given to each boxes are
+compared and the greatest one will be taken and implemented.
+
+If box1 have 35px and box2 have 25px. The space btw 2 boxes will be 35px.
+
+    
