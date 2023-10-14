@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <style>
+        div{
+            background-color: burlywood;
+        }/*Here we got background color with some specified margins and borders which are default set by browser.*/
+        
+        *{
+            margin:0;
+            border: 0;
+        }
+        
+        .box{
+            color:aqua;
+        }
+        
+        .box1{
+            color:green;
+            padding:10px;/*On giving padding of 10px we have got the height of 10px from all the sides.*/
+            margin:5px;
+            border:2px solid red;
+            height:200px;
+            /*Here the height 200px means that only the height is 200 without including the paddding and borders*/
+            box-sizing: border-box;
+            /*The box sizing property will adjust the height,border,padding all together to 200px*/
+            
+        }
+        
+        .box2{
+            color: fuchsia;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        This is first div tag
+    </div>
+    <div class="box box2">
+        This is the second div tag
+    </div>
+
+</body>
+</html>
