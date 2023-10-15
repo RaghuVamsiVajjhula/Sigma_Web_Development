@@ -1,0 +1,52 @@
+Fonts :
+
+->We can add fonts in our style sheet by using FontFamily.
+
+There are multiple fonts available in our VS code which can be added to our website.
+But u need to add a generic font family which is available in all the user devices.
+
+Inside font family:" " There are multiple fonts written Inside.
+This is because the first font written in the family will be the MAIN FONT.
+
+The reamaining fonts written after to these fonts are the FALLBACK fonts.
+They are used when the main font is available to work.
+
+->We can style our text using font-style
+
+We can add italic or oblique kinds of styles to our fonts as u can look at the h1 and p tag.
+
+
+->We can add weight to our text by usning Font-weight
+
+we can add some number like 400,500,.. or Bold,Light,Bolder,Lighter...
+in order to add some weight to oour text.
+
+
+
+->Text-Decoration property:
+
+We can add different decoration property like underline,overline and more..
+to our texts.
+
+
+WE CAN ALSO IMPORT FONTS from Google Fonts:
+Go to google fonts check or search for some font .
+click on the + symbol on right side of the font.
+You get a popup on rightside.
+You get 2 ways to get that font you get a link which u can copy and paste below the title in head.
+Another way is that u get an import @... some code copy it and paste it in startng of
+your style sheet.
+And now add font-family: to the text which is present in the Google Forms website
+Where u have imported the font below u can see the font family text.
+
+
+We can see that in p2 tag we have imported Ballo Bhai Font.
+
+We can also import multiple fonts using one import tag.
+It is recommended to import multiple fonts with one import.
+
+
+->Font size:
+We can increase the size of font using font size.
+if not specified it is declared by browser by default.
+
