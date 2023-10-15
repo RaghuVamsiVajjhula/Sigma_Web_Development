@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /*@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');*/
+        /*The above code is for importing a font from Goole fonts.*/
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@100&display=swap');
+        /*In above import we have imported 2 fonts: baloo bhai and poppins font*/
+        /*It is recommended to import multiple fonts in 1 import statement.*/
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-decoration:underline;
+            /*We can add some other like overline,dotted,etc..*/
+            text-decoration-color:crimson;
+            /*Adds color to the decoration elemtent.*/
+            text-decoration-style: dotted;
+            /*we can see dotted underline*/
+            text-decoration-thickness: 6px;
+            /*The thickeness of the dotted underline is specified*/
+            text-indent:50px;
+            /*We get an indentation of 50px from above line of code*/
+
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style:oblique;
+            font-weight:800;
+            line-height: 4;
+            /*The line height is basically the space btw 2 lines*/
+            /*We can see that the line height is 4 set to p tag below*/
+            letter-spacing: 23px;
+            /*The space btw each letter is specified.*/
+
+        }
+        h2{
+            /*The below code can be written or can be copied from the website itself.*/
+            font-family: 'Baloo Bhai 2', sans-serif;   
+            /*Here sans-serif is written as fallback font if Bhai is not available in system we use sans*/    
+
+            text-transform: uppercase;
+            /*We can also use lowercase.*/
+        }
+        article{
+            /*We can import poppins or Baloo bahi at at time and use one of them*/
+            font-family: 'Poppins', sans-serif;;
+            font-weight: 900;
+            font-size: 20px;
+            /*If not give taken by default by browser.*/
+        }
+        .OverFlow{
+            border:2px solid blueviolet;
+            width:50px;
+            /*After adding width we can see that the words are coming outside the border so they are overflowing*/
+            text-overflow: ellipsis;
+            /*We can use overflow value with clip*/
+            overflow: hidden;
+        }
+        .WordBreak{
+            border:2px solid violet;
+            width:50px;
+            text-overflow: clip;
+            overflow: hidden;
+            word-break: break-all;
+            /*Word break will print the ouput without breaking the text.By default it will print all the text by breaking them into words*/
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Fonts</h1>
+        <p>This concept is about Fonts</p>
+        <h2>This is written to use Google Fonts.</h2>
+        <article>This is an article used to show that there are multiple fonts imported and used.</article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio ut vitae maxime praesentium eveniet? Accusantium libero laudantium quos cumque possimus magnam alias.</p>
+        
+        <article class="OverFlow">This is an article which should be used in order to understand the over Flow property.</article>
+        <article class="WordBreak">We use WordBreak break all the element in a paragraph.</article>
+    </div>
+</body>
+</html>
