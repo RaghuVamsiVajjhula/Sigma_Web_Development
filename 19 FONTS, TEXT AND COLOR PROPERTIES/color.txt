@@ -1,0 +1,22 @@
+Colors can be represented in following ways:
+
+Color Keywords
+RGB
+Hex Color Codes
+HSL
+RGBA
+
+YOu can find HSL,RGB and HEx codes of a colors from this website htmlcolorcoders.com
+YOu can also get them from many other sources.
+
+rgb(red,green,blue)
+rgba(red,green,blue,alpha)
+HEre alpha gives the opacity value of the text.
+
+If alpha=1 then no need to specify the value bcoz by default it will be 1.
+
+We mostly use Hex Color Codes.
+
+HSL(hue,saturation,lightness)
+HSL(value,percentage,percentage)
+
