@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CsS specificity and cascading</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color:cadetblue; 
+        }
+        /*Here the h1 tag text turned into cadetblue color*/
+        /*The yellow,cred,ccpurple here are the attribure selectors.There is to be a comparision in between these attributes.*/
+        /*So the attribute with latest position will be considered with high priority.*/
+        /*specificity of yellow,cred,cpurple will be:10*/
+        /* */
+        .yellow{
+            color:yellow;
+        }
+        /*Here the h1 tag text turned into yellow color*/
+
+        .cred{
+            color:red;
+        }
+        /*Here the h1 tag text turned into red color*/
+        .cpurple{
+            color:purple;
+        }
+        /*Here the h1 tag text turned into purple color*/
+        /*finally we can see that the text remained in purple color: .
+        This is because of an algorithm called CASCADE ALGORITHM.
+        */
+
+        /*As cpurple is written at last or like is written as latest condition it is followed.If u keep cred below
+        cpurple you can see the text in red color.*/
+
+        /*Below we are implementing the attribute selector. */
+        [data-x=a]{
+            background-color: lightgreen;
+        }
+
+        /*In below code we can see that the specificity will be: h1+.yellow so 10+1=11 is the specificity*/
+        h1.yellow{
+            color:red;
+        }
+        /*We can also use important which will make specificity value as 10000*/
+
+        
+    </style>
+</head>
+<body>
+    <!-- Inline will have more priority. So if you insert  style:"color:green" after h1 and before class as an Inline element you 
+    can see that the text in h1 tag is showed in green color due to priority of inline.-->
+    <h1 class=" yellow cred cpurple" data-x="a" ="">Class specificity</h1>
+</body>
+</html>
