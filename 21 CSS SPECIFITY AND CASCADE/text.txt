@@ -1,0 +1,33 @@
+cascade algorithm:
+
+1.the style written in the latest like in our example there are multiple background colors given to same
+h1 tag.
+But only the color used in the last of the style like here we gave the purple color in the last so we can see
+our h1 tag in the purple color instead of yellow and red colors.
+
+2.Specificity:an algorith which matches among the css selectors.
+The priority order for Specificity is:
+
+InlineStyles>Id selectors>Class or Attributes>Element selector>Universal selector
+
+
+Attribute selector will be like data-x="a" so u can use html when needed by using the attribute selector.
+
+
+SPECIFICITY VALUES:
+
+Universal selector:0
+Element selector or pseudo selector:1
+Class selector,Attribute selector and pseudo classes:10
+ID selector:100
+Inline styles:1000
+
+Then add the values when used together.
+Like here in the index.html we have use h1.yellow so here both
+Class selector and Element selector have been used at time so the 
+Specificity will be 10+1= 11.
+
+we can add like color:red !important which will make the value of Specificity
+upto 10,000. overwriting the value will be difficult if value is 10000
+
+For cascade algo refer the cascade algorith image in this folder.
