@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS sizing Units</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /*width: 2048px;*/
+            /*Only on devices which can have 2048 of resolution this is good so we will not consider px*/
+            width:80vw; 
+            /*This is viewport width*/
+            /*This takes 100 percent size of any device..*/
+
+            margin:auto;
+            /*This makes our object into the centre of the webpage by making the left and right margins same.*/
+            
+            height: 10vh;/*view height here 10 takes only 10% of viewheight*/
+
+            background-color: blueviolet;
+        }
+        .container{
+            
+            box-sizing: border-box;
+            border:2px solid blue;
+            background-color: red;
+            width:80vw;
+            /*Takes 80 % of our view height*/
+
+            /*height:80vh;*/
+            /*Here if we remove 80 vh the class below the container will come down of the container like in the
+            middle of our webpage.If we are having footer below container we need footer to always stay down
+            instead of coming into middle of page.
+            So we need to add min-height:*/
+            min-height: 80vh;
+
+            margin:20px auto; /*Here the 20px is the margin between above and below boxes*/
+            /*By default the font size will be 16px*/
+
+
+            /*What ever may be the amount of text written in this block the size of the element goes
+            on increasing..*/
+
+            font-size: 25px;
+        }
+        .container p{
+
+            /*Here fontisze of container is 25px and 
+            the p tag fontsize 2em which means 2*25=50px;
+            as p is child of container class we can use em*/
+
+            /*Here we want to set the font size some no of times to the parent class. 
+            we can use em*/
+            /*font-size:2em;*/
+
+            /*Here we want to set the font size with respect to the root element*/
+            /*We use rem*/
+            font-size: 2rem;
+            /*html: font size is 9 so 2 rem means that
+            2*9=18 will be the font size here.*/
+            border:10px solid green;
+            
+            background-color: yellow;
+            width:70%;
+        }
+        /*html is the root element*/
+        html{
+            font-size: 9px;
+            /*In order to increase the font size of root element we 
+            can use rem instead of em*/
+            
+        }
+        /*When we remove the fontsize from container class but
+        we add fontsize: 2rem or some number rem Then
+        the  default font * 2 is used as font size
+        Or if the html element have some font the fontsize of html *2 is 
+        used as font size.*/
+
+        .mycount{
+
+            box-sizing: border-box;
+            font-size: 22px;
+            
+            border:2px solid blueviolet;
+            margin: 25px auto; 
+            background-color: chartreuse;
+            width:80vw;
+            /*For devices like laptops:
+                vmin is height like its vh
+                */
+            /*Once study the concept of vmin and vmax
+            */
+
+
+        }
+
+        .container > div > p{
+            color: darkorchid;
+            border:2px solid
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a box class and written with out any tag.
+    </div>
+
+    <div class="container">
+        This is a container class
+        <div>This is a paragraph element which is written inside the div tag of class contatiner.
+            <p>
+                This is span written inside div ->p-> 
+            </p>
+        
+            
+        </div>
+    </div>
+
+    <div class="mycount">
+        I am another container placed here.
+    </div>
+</body>
+</html>
