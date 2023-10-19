@@ -1,0 +1,21 @@
+There are some inline elements and block elements in HTML.
+
+As we know that the span tag is an inline element so we get the below 2 lines of span in same lines
+
+
+Block elements like div will not continue another line next to it.
+
+Inline element like span will print the next line next to it.
+
+We can add a display property like:
+display:inline in order to make a block element into inline and
+make it print in the  same line.
+
+If u give padding property to any inline element then the
+padding-top will not be showing its property.
+
+Same the margin will not include the margin-top property for the 
+inline elements.
+
+Also the width cannot be set for an class with display property set to inline.
+
