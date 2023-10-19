@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties in CSS</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .box{
+            border:2px solid purple;
+            /*By default the div tag is block element So the 2 lines come one after
+            another.After adding inline to display that both the lines are combined 
+            and printed in the same line.*/
+
+            display: inline;
+
+            padding:50px;
+            /*We can see the padding property is not working for top property*/
+
+            margin: 50px;
+            /*We can also see the margin-top property is also not working because here we have m
+            made our div element of box class as inline element.*/
+
+            /*In order to solve the problem we can make the display property to inline-block.*/
+
+            /*Also the inline dispaly property will not allow to set width.*/
+
+        }
+
+        .AnotherBox{
+            
+            /*On using inline-block elements we can easily set padding,margin and width  */
+            display: inline-block;
+            padding: 50px;
+            margin: 50px;
+            border: 2px solid red;
+        }
+        /*We have added only one tag under box1*/
+        .box1{
+            /*display: none;*/
+            /*On using the display:none property we can see that the entire box on our 
+            web page has been missing*/
+            /*Also on using display none there is no place reserved for the box element.*/
+
+
+            visibility: hidden;
+            /*On Using the visibility : hidden property we can see that the 
+            box is still not present in our webpage but the space where the box is
+            to be placed stays reserved.*/
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        I am a box class.
+    </div>
+    <div class="box">
+        I am another box class element.
+    </div>
+
+
+    <div class="AnotherBox">This is first element in new class</div>
+    <div class="AnotherBox">This is second element in new class</div>
+    <span>This is line 1 in span tag</span>
+    <span>This is line 2 in span tag</span>
+</body>
+</html>
