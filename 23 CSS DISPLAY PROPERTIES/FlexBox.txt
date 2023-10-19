@@ -1,0 +1,4 @@
+ we will learn about flex box later.
+
+ but we will just use the flex box and another properties:
+ 
