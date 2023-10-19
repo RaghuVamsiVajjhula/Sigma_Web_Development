@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties in CSS</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .box{
+            border:2px solid purple;
+            
+            /*display:flex;*/
+            justify-content: center;
+            /*This makes our content to stay at the centre of the box.*/
+
+            /*we can also use inline flex*/
+            /*display: inline-flex;*/
+            /*We can see that all the boxes are seen in a single line on our webpage.*/
+            
+
+            /*We can use the display grid*/
+            display: grid;
+            /*We need to know that grid is also an display property.*/
+            
+
+            padding:50px;
+           
+        }
+
+        
+        .box1{
+           
+
+            /*visibility: hidden;*/
+           
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        I am a box class.
+    </div>
+    <div class="box">
+        I am another box class element.
+    </div>
+
+
+    <span>This is line 1 in span tag</span>
+    <span>This is line 2 in span tag</span>
+</body>
+</html>
