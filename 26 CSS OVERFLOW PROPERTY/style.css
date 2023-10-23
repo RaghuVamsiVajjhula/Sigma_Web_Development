@@ -1,0 +1,36 @@
+.box{
+    width: 15vw;
+    height:10vh;
+    border:2px solid red;
+    /*we can see that the text is overflowing outside the box content.*/
+    /*overflow: scroll;*/
+     /*We can see a scroll bar in box made in webpage.
+     we can set overflow to auto which will show a scrollbar only when the page gets overflowed.
+     If there is no any overflow text then the scroll bar is no shown.*/
+
+     overflow: auto;
+
+     /*There is another property which will make the text to show horizontally and not vertically*/
+     white-space: nowrap;
+
+     /*The text overflow property will show an .... sign */
+
+     text-overflow: ellipsis;
+
+     /*There is another attribute value for overflow which is: hidden or clip which will hide the remaing data in the */
+     /*Using clip will programatically disables the scrollbar.*/
+
+
+     /*We can also set the overflow property individually for x and for y*/
+
+     overflow-x: hidden;
+     overflow-y: scroll;
+     /*Here only when the y is overflowed we can get an scroll bar and if we get any overflow in the 
+     x direction we cannot get anything because it is set upto hidden*/
+
+     /*we can also write it as overflow: x y */
+     overflow: scroll hidden;
+
+     /*Mostly use auto because it will take a scrollbar whenever it is needed.*/
+     
+}
