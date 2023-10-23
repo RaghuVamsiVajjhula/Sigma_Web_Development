@@ -1,0 +1,36 @@
+We use shadows in css in order to give visually shadows to some elements.
+
+we use box-shadow.
+
+it can have values of 
+
+h-offset:Determines shadow in horizontal position
+v-offset:Determines shadow in vertical position
+
+blur: The larger the value the blurrier the shadow is.
+spread:Expands or shrinks the shadow size.
+color:To define the shadow color.
+inset:Makes the shadows inner.
+
+The syntax and meaning of the code is explained in the code 
+for box shadows.(index.html)
+
+The text shadow can also be made from css.
+
+
+
+OUTLINES:
+outlines are lines which can be drawn around the elements,outside the borderes 
+to make elements "stand out".
+
+Syntax:
+outline: width style color;
+
+The main difference btw border and outline is 
+Border stays inside and outline stays outside the box present in our webpage.
+
+outlines dont take up any space they are just drawn arouns the elements.
+
+By using the outline offset property we can increase the size or distance
+present in betweeen the ouline lines for a particlular element.
+
