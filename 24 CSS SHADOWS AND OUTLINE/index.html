@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadow and Outlines</title>
+    <style>
+        .box{
+
+            margin:10px;
+            border:2px solid red;
+            padding:30px;
+            text-align: center;
+            box-shadow: 5px 10px 10px #02a102 ;/*We can place inset here if want*/
+                box-shadow: h-offset v-offset blur spread color inset*/
+
+        }
+
+        .box2{
+            margin:20px;
+            border:2px solid violet;
+            padding: 30px;
+            text-align: center;
+            /*Using inset will bring the shadow inside*/
+            box-shadow: 30px 10px 10px yellow inset;
+        }
+        p{
+            padding: 50px;
+            border:2px solid green;
+            text-shadow: 2px 2px 4px #e30303;
+            outline: 2px solid blue;
+            /*The border stays inside and outline stays outside*/
+            outline-offset: 20px;   
+            /*outline offset is used to incerase the distance or size in between them*/
+
+            /*The borders can be set with some radius, which will make the shape curvy*/
+            border-radius: 20px;
+            /*the outline also changes its shape with respect to border when radius is defined*/
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        I am a box
+    </div>
+    <div class="box2">
+        I am another box element.
+    </div>
+
+    <p>This is a paragraph element which is used to learn text shadow</p>
+</body>
+</html>
