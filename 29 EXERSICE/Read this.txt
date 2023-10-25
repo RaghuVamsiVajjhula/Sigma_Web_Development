@@ -1,0 +1,2 @@
+The exersice is present in the Web-Learns repository.
+It is making of a name card, with a photo and some text and text boxes.
