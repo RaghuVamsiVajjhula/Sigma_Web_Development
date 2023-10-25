@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 200px;
+    width: 50vw;
+    border:2px solid black;
+    padding: 4px;
+    margin:3px;
+
+}
+.box1{
+    background-color: green;
+    position: relative;
+
+    /*In order to set z index to 1 we need to use position : relative
+    Also here we can see that till before adding z index value the 
+    box2 is top of box1 and after adding the index to 1(which is greater than the z index value of box2)
+    now box1 is on top of box2*/
+    z-index: 1;
+
+    
+}
+
+.box2{
+    background-color: brown;
+    position: relative;
+    top:-50px;
+    /*Here on adding the position to relative. and the 
+    top value we can see that the change in top have been effected.*/
+    left:35px;
+
+}
+
+.box3{
+    background-color: cornflowerblue;
+}
+
+.box4{
+    background-color: fuchsia;
+}
