@@ -1,0 +1,41 @@
+transform,filter or perspective are 3 properties which can also 
+make an element appear as positioned.
+even position for parent is not set then if even one of the above
+property is used in parent class it acts as a positioned element.
+
+And the child class workd related to parent class not  the html class.
+
+
+Positioned element is an element which is having a value like
+Relative,absolute, or something wxcept static.
+
+
+STATIC POSITION:
+Position is a property in CSS. Which will be having a value of 
+static by default.
+
+Here in our web page we can see that there are 4 boxes which are created.
+
+top,bottom,left,right,z index cannot be set when the value of the
+Position is by default set to static.
+
+RELATIVE POSITION:
+Here we can see that the Position of box2 is made to be RELATIVE.
+(you can check comment in box1 and comment in box2)
+
+ABSOLUTE POSITION:
+If there is a child class and parent class in our code.
+
+Also here parent class is a box and child class is another box of parent class.
+
+
+If u set child class to absolute and give it some style like top=0;
+so child class will need to move up.
+
+Here when we the child class is positioned and parent class is not positioned then the
+child class will be set positioned directly to the HTML .
+
+It means the child box will be placed at top of HTML page.It even overlaps the parent class.
+
+So if parent class is positioned then the child class will stay top inside the parent box.
+
