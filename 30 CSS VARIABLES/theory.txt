@@ -1,0 +1,27 @@
+If we make a website without using variables, So now if we needed to change the colors in our website.
+For example we have made our website in dark theme so black is a color we have used multiple number of
+times in our website.We have to select each and every color and change it it may take a long time to change
+colors for multiple times.
+
+So if we declare a variable and set a variable name with one color and whenever we need to use some color
+we can use the variable name in place of color.
+
+We also need to declare our variable in global declaration.
+
+There is also declaration of local variable.
+
+If a variable is not found then we can give a fallback color.
+
+ALSO
+we can give the color variable to set the borders:
+example:  2px solid var(FirstColor)
+
+
+CSS variables can also hold some other prooperties other than
+colors.
+
+
+THE variables can store 
+background,URL's,Strings,numbers and more..
+
+
