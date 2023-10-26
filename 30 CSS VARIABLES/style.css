@@ -1,0 +1,47 @@
+:root{
+    --FirstColor:rgb(0,100,100);
+    --SecondColor:rgb(100,50,200);
+    --New:yellow;
+    --DefaultPadding:20px;
+    --Opacity:0.2;
+}
+
+/*The root is a global declaration of variables.*/
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    background-color: var(--FirstColor);
+    border:2px solid var(--New)
+}
+ul{
+        display: flex;
+
+}
+ul li{
+    /* padding: 10px; */
+    padding: var(--DefaultPadding);
+    /* We have used default padding value using a variable */
+
+    list-style: none;
+    opacity: var(--Opacity);
+    /*We can see that the variable Opacity is stored in Root and 
+    can be changed if u want*/
+    
+}
+.MainContent{
+    background-color: var(--SecondColor);
+}
+
+
+/*the below code is decalring a variable locally and also
+we are overriding the value of the FirstColor variable.*/
+ul li:first-child{
+    --FirstColor:rgb(20,245,43,blue);
+    /* Here we can see in above code blue is written it is a fallback
+    color given to it if the FirstColor variable is not found then the blue
+    coloe is used instead of declared variable color. */
+
+    background-color: var(--FirstColor);
+}
