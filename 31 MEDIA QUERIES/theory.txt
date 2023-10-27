@@ -1,0 +1,16 @@
+In order to make a website responsive, we need to use media queries.
+
+Responsive in the sense that the website looks good in a computer and a mobile also.
+
+So the syntax will be:
+
+@media only screen  
+screen is used for devices having screens.
+
+
+(@media)  (only or not)  (mediatype) and (expressions)
+{
+    CSS code.
+}
+
+
