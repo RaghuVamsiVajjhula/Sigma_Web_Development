@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: green;
+}
+
+/* Each and every device has its own width dimension */
+
+/* For max-width: The below code meand that when the width is below 400 then the color which is mentioned below
+is displayed and for the devices which are having a width more than 400 will display the color
+which is given for the body */
+
+/* We can also decalre for minimum width */
+@media only screen and (max-width:400px)
+{
+    body{
+        background-color: red;
+    }
+}
+
+/* Here on using below code when the orientation is portrait then there is no
+change seen but when it is set to landscape then we can see the below mentioned properties
+will be working. */
+@media screen and (orientation:landscape)
+{
+    body{
+        border: 2px solid black;
+        color:white;
+    }
+}
