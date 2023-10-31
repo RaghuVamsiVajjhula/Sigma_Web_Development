@@ -1,0 +1,48 @@
+img{
+    float: left;
+    /* On using left you can see that the image is floated to left side. */
+    /* Also on using this the content can be placed in the right side of the page */
+
+}
+/* Let us add borders to both parent CARD and Cards elements. */
+.cards{
+    border:2px solid black;
+}
+.card{
+    border: 2px solid red;
+}
+/* WE can see that after adding these properties the picture overflows from the border given to it. */
+/* So in order to solve the problem of picture overflow we can use the property of 
+display:flow-root at the parent class div. */
+.cards{
+    display: flow-root;
+}
+/* We can see that the picture is not over flowing now. */
+img{
+    float: right;
+    /* on setting the value toi right we can see that  the image floats to the right side and the 
+    content shifts to the left side. */
+
+}
+
+/* You can either get so many number of words in side of the image you can see that the image is not
+covering the text instead the text is adjusted as per the image placement.
+
+In past people use this in blogs and alos in writing articles in newspapers online because on using this the 
+the photos and text are appeared in good manner at a time.*/
+
+
+/* Now we want to set a property where the second child of the parent  */
+.card:nth-child(3)
+{
+    background-color: yellow;
+    clear: right;
+}
+/* From the above code it told that there should be the clear position in the right side. 
+so we can see the 3rd child is not having any content in its right side*/
+
+/* Now if u set float to left we can see the content after the image this is because we have only set our
+clear to right so there can be any content in the right side.*/
+
+/* Now in order to set the clear property such that there should be no content present in both left and 
+right sides of the element then we need to set the clear:both to the element. */
