@@ -1,0 +1,59 @@
+/* WE have discussed in video 17 about some selector properties */
+
+/* .box:first-child{
+    background-color: red;
+} */
+
+/* WE are commenting the above code because it sets all the text to background */
+/* .box::first-line{
+    background-color: blue;
+} */
+/* We can see that only the first lines in the all elements are colored as blue. */
+
+
+/* In order to select all the elements present inside the boxes class we need to write
+the following code: */
+/* .boxes *{
+    color: rgb(60, 120, 0);
+    border:2px solid black;
+
+} */
+
+/* [data-color="primary"]{
+    margin-top: 30px;
+} */
+/* WE can use the above property for any kond of attributes like 
+id,classes and more.. */
+/* Also we can sue grouping of concepts like adding a p [data-color="primary" */
+
+
+/* .box:nth-child(odd)
+{
+    background-color:red;
+    /* You can see that all the odd positioned lines are colored as red
+    If you place even in the place of odd then it will color all the even positioned
+    lined in the boxes 
+/* } */
+
+/* WE can also insert content in webpage from css
+using the below code:*/
+.boxes::before{
+    content: "Hello this is before content's text";
+}
+/* We can also set after and use it.It will print after the content of boxes */
+
+::selection{
+    background-color: black;
+    color: burlywood;
+}
+/* The above code is important to specify the color and 
+backgroud color which is appreared in webpage when we select somethig */
+
+
+/* Also we can set our first letter color of elements present in our box elements */
+.box::first-letter{
+    color:blue;
+    font-size: 30px;
+}
+/* WE can see that the font size and color of fist letters of box is 
+changed due to the property. */
