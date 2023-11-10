@@ -1,0 +1,34 @@
+.container{
+    border:2px solid red;
+    height: 70vh;
+}
+.item{
+    height: 40px;
+    width: 40px;
+    border:2px solid black;
+    background-color: violet;
+    margin: 5px;
+}
+/* Now we can see that there are boxes placed in vertical
+position. */
+/* So now if we want to make the boxes appear in the horizontal direction we 
+need to use the concept of flex box.. */
+.container{
+    display: flex;
+    /* We can see that after adding flex property to the display we can 
+    see that all the boxes present are placed in the horizontal direction. */
+    /* Also by default the boxes are placed left to right so to make them 
+    place center we can do it as:*/
+    justify-content: center;
+    /* We can see that the content is placed at the center but from top */
+    align-items: center;
+    /* Now the content is placed at the center vertically. */
+
+    /* JUstify content can also be set to flex end so that those elements goes to the 
+    end of the flex page.
+    It can also be set to flex start so that you can see those elements at the start
+    of the flex page. */
+    /* Also we can set it to left or right.*/
+    /* Also we can set it to space around and space between where in space around
+    Even the ends also consists of the spaces and in between only the boxes have spaces in between them. */
+}
