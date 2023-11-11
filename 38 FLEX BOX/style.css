@@ -31,4 +31,42 @@ need to use the concept of flex box.. */
     /* Also we can set it to left or right.*/
     /* Also we can set it to space around and space between where in space around
     Even the ends also consists of the spaces and in between only the boxes have spaces in between them. */
+
+    /* Also the above discussed properties can also be set to align items. */
+
 }
+
+/* all the items placed are not placed in left to right they are arranged 
+according to flex direction. */
+
+/* by default these directions will be placed from left to right
+we can change them using flex direction. */
+
+.container{
+    flex-direction: column;
+    /* We can also set the flex direction to column-reverse where we can
+    see that the number boxes which appear from top to bottom will now be 
+    appeared as from bottom to up. */
+    /* In the same manner we can set it to row and row-reverse where we can
+    see that on row we can see the boxes places in the row wise arrangement. 
+    AND on row-reverse-direction we can see that the */
+}
+/* There are 2 kinds of axis : Main Axis and Cross Axis
+
+If flex direction is row main axis in the horizontal side and the 
+cross axis in the vertical side.
+*/
+/* If the flex directin is column then main axis is in the vertical side and 
+the cross axis is in the horizontal side. */
+
+
+/* Justify content:
+This will  not verift and not adjust elements according to horizontal and 
+vertical, it will refer to the main axis.
+It will center the main axis always.
+It depends on the flex direction
+    if it is row the main axis is in one direction and it makes it center in another way.
+    
+    if it is coloumn the main axis in in another direction and it makes center in another way
+*/
+
