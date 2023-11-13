@@ -1,0 +1,7 @@
+If we are having many number of elements in our content.
+The content present in our page is more so the element present in the 
+last will be overflowed and hidden.
+
+So we can use the concept of flex wrap in which we can make the content appear 
+below the elememt so that the elements are not hidden.
+
