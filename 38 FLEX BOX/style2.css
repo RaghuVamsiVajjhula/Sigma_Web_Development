@@ -1,0 +1,51 @@
+.container{
+    border:2px solid red;
+    height: 100vh;
+}
+.item{
+    height: 40px;
+    width: 40px;
+    border:2px solid black;
+    background-color: violet;
+    margin: 5px;
+}
+.container{
+    display: flex;
+    
+    /* justify-content: center; */
+    align-items: center;
+    
+
+}
+
+
+.container{
+    /* flex-direction: column; */
+    /* Here we remove the flex direction */
+    /* By default they are set to row now we can see that there is an 
+    overflow in the elements they are moving outside the box
+    So we need to use the concept of flex-wrap. */
+    flex-wrap: wrap;
+    /* Now we can see that all the elements can now be seen and 
+     are not overflowing. */
+     align-items: center;
+    align-content: flex-start;
+    /* There is no justify-items in flex box */
+    gap: 10px;
+    row-gap: 20px;
+    column-gap: 30px;
+    /* We can define both row-gap and column gap
+    or commpnly gap can be defined. */
+    gap: 20px 35px;
+    /* The above code of gap : 20px 35px consists of 
+    the row and column gap respectively. */
+
+
+    /* For an item its order can be given using its CSS
+    property order:10; */
+}   
+
+
+
+
+
