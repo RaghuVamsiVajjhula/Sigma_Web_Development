@@ -1,0 +1,31 @@
+Flex Grow:
+
+By default we have the value of the property 
+flex-grow :0;
+
+On setting it to some value:
+
+Like if there are 5 elements (here boxes are elemets)
+Then they will be taking their own spaces.
+If u set the flex-grow property of a particular element
+or box to 2 then one element will grow its size to two 
+element's size.
+
+
+
+Flex Shrink:
+It is the ability of an flex item to shrink if necessary.
+If u set an element;s flex shrink property to 2 then it can be small if the page
+size if reducing up to the value.
+
+Setting value of flex shrink to 2 means that with double speed it shrinks.
+
+
+align-self:
+You can set the align-self for a particlular element in the CSS.
+the value can be: flex-start or flex-end.
+It means that at the starting of flex the element is aligned.
+or 
+It means that thge end of the flex element is placed.
+
+
