@@ -1,0 +1,7 @@
+2-d Transforms:
+This property allows the content to be restructured in a way like
+translate,rotate,scale or skey,etc..
+
+As it is 2D,therefore the content is transformed into x and y dimensions.
+
+We can see that on using the Transform Property of rotate the box has been rotated.
