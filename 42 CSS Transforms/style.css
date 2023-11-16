@@ -1,0 +1,15 @@
+.box{
+    height:50px;
+    width:50px;
+    background-color: beige;
+    border:2px solid black;
+    transform: rotate(40deg);
+    /* We can see that the rotate(40deg) has rotated the box of 40degrees.
+    Which is placed at the top . */
+    
+}
+.container{
+    width: 100vw;
+    height: 80vh;
+    border:2px solid purple;
+}
