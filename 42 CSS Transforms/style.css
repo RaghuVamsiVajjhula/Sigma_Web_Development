@@ -3,10 +3,59 @@
     width:50px;
     background-color: beige;
     border:2px solid black;
-    transform: rotate(40deg);
+    /* transform: rotate(40deg); */
     /* We can see that the rotate(40deg) has rotated the box of 40degrees.
     Which is placed at the top . */
-    
+
+    /* Now we can see box right, to make it center we use following code: */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Also in the above transform property we have used
+    deg unit we can also use another unit: */
+
+    /* transform: rotate(0.5turn); */
+
+    /* On using 0.5 it means 180deg as we know the entire turn
+    consists of 360deg */
+    /* One turn means that one time rotating it and keeping it at its same position. */
+    /* transform: rotateX('40'); */
+
+    /* According to X axis to rotates 40degrees. */
+
+    /* transform: rotateZ('30'); */
+
+
+    /* TRANSFORM SCALE: */
+    /* transform: scale(1.6); */
+    /* Here we can see that our element has became 1.6 times
+    bigger  */
+    /* transform: scaleX(20); */
+    /* In the same way as above u can scale it for X axis, Y axis,
+    Z axis. */
+
+    /* transform: skew(20deg); */
+    /* We can see our box element have been skewed by 20 deg */
+    /* Here we have to remember that along Z axis we cannot skew */
+
+
+    /* The  translate property: */
+    /* transform: translateX(94%); */
+    /* Here the element have been translated along X axis.IT can
+    also be done along Y axis where it goes down means along Y axis. */
+
+    /* WE can also implement multiple transform properties by decalaring one
+    after another with spaces in between them.*/
+    transform: rotate(20deg) skewX(20deg) translateY(30%);
+    /* HEre all the above discussed properties have been implemented all
+    at  a time. */
+ /* Also we can set the values of translate in negative form like -45% which will
+ make it to go inside the negative Axis. */
+
+ /* TRANSFORM ORIGIN: It is just the positions of element with X and Y axis 
+ respectiveley and it moves the element box along it.*/
+
 }
 .container{
     width: 100vw;
