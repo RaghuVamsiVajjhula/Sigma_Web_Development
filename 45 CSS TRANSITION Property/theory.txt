@@ -1,0 +1,6 @@
+We use transition property, inorder to make smooth transition between the usage of one
+property to another property.
+
+For example:
+you can see a main content in a page and if u tap on the side navbar it will be 
+transitioned 
