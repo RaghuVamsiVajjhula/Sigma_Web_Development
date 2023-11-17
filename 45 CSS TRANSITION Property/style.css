@@ -1,0 +1,16 @@
+.container{
+    background-color: brown;
+    width: 50vw;
+    height: 40vh;
+}
+.box{
+    background-color: burlywood;
+    width: 25vw;
+    height: 20vh;
+
+}
+.translate{
+    transform: translateX(10%) translateY(10%);
+    /* Here we can see that the element has moved its 
+    position but t */
+}
